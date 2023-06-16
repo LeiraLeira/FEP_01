@@ -1,0 +1,187 @@
+/*general*/
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+}
+a {
+  cursor: pointer;
+}
+
+/*I.header*/
+
+/*top bar*/
+.name-one {
+  float: left;
+  width: 68%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 60px 30px 10px;
+}
+#logo {
+  width: 300px;
+  padding-top: 3rem;
+  margin-bottom: 30px;
+}
+
+/*navigation bar*/
+nav {
+  float: left;
+  width: 100%;
+  background-color: rgba(200, 50, 50, 0.77);
+  text-align: right;
+  text-align: right;
+  margin-bottom: 70px;
+  color: white;
+  position: sticky;
+  margin-bottom: 40px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+#contact {
+  margin-right: 90px;
+}
+#home a:visited,
+#blog a:visited,
+#about-me a:visited,
+#contact a:visited {
+  color: white;
+}
+}
+#blog a:hover,
+#contact a:hover,
+#home a:hover {
+  color: rgb(120, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+
+#ariel-szabo-logo {
+  background-color: rgba(170, 143, 140, 0.6);
+}
+
+/*II.main*/
+#about-text {
+  margin-top: 8rem;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+#photo-ariel {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+/*heading*/
+#heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+/*phone-photo with caption*/
+#phone-img {
+  display: block;
+  margin: auto;
+  width: 1100px;
+  height: 310px;
+  object-fit: cover;
+}
+h3 {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/*photo-container*/
+.photo-container {
+  width: 900px;
+  margin: auto;
+}
+.left-photo {
+  float: left;
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 310px;
+  object-fit: cover;
+  position: relative;
+  left: -6.2rem;
+}
+.right-photo {
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 310px;
+  object-fit: cover;
+  position: relative;
+  right: -6.3rem;
+}
+/*
+  .clear {
+    clear: left;
+  }
+  */
+
+/*text-container*/
+#text-container {
+  width: 900px;
+  margin: auto;
+}
+#left-text {
+  width: 460px;
+  float: left;
+  height: 100%;
+  position: relative;
+  left: -6.6rem;
+  margin-top: 1rem;
+}
+#right-text {
+  width: 400px;
+  float: right;
+  height: 100%;
+  position: relative;
+  right: -5.7rem;
+  margin-top: 1rem;
+}
+
+/*III.footer*/
+#div-footer {
+  background-color: rgba(170, 143, 140, 0.6);
+  margin-top: 120px;
+  width: 100%;
+}
+#logo-below,
+#name-below {
+  text-align: center;
+}
+#logo-below {
+  width: 300px;
+  padding-top: 3rem;
+  margin-bottom: 10rem;
+  display: block;
+  margin: auto;
+}
+#name-below {
+  margin-top: 1.5rem;
+  padding-bottom: 3rem;
+}
